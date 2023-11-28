@@ -38,8 +38,8 @@ public class AwsConfig {
 
     private AwsSecrets getSecret() {
 
-        String secretName = "awstest";
-        String region = "eu-north-1";
+        String secretName = "";
+        String region = "";
 
 
         AWSSecretsManager client = AWSSecretsManagerClientBuilder.standard()
